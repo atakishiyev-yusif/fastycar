@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="az" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/common.css" />
+    <link rel="stylesheet" href="/styles/custom.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <title>Fastycar | Login</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="menu-button">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <a href="/" class="logo">
+        <span>fastycar</span>
+      </a>
+      <a href="./login.html" class="transparent-button">Login/Register</a>
+    </header>
+    <!-- header -->
+
+    <!-- loading -->
+    <div class="loading loading-transparent">
+      <img src="./assets/loading.gif" />
+    </div>
+    <!-- loading -->
+
+    <!-- menu -->
+    <div class="menu">
+      <button type="button" class="close-menu-button">
+        close <i class="fa-light fa-circle-xmark"></i>
+      </button>
+      <div class="menu-items">
+        <div class="menu-item">
+          <a href="/">Home</a>
+        </div>
+        <div class="menu-item">
+          <a href="./cars.html">Cars</a>
+        </div>
+        <div class="menu-item">
+          <a href="./news-videos.html">News & Videos</a>
+        </div>
+        <div class="menu-item">
+          <a href="./terms-conditions.html">Terms & Conditions</a>
+        </div>
+        <div class="menu-item">
+          <a href="./help.html">Help</a>
+        </div>
+      </div>
+      <div class="menu-content"></div>
+    </div>
+    <!-- menu -->
+
+    <main id="login-page">
+      <div class="container">
+        <div class="login-page-content">
+          <h3>Login page</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <form action="cars.html">
+            <div class="input">
+              <div class="label">
+                <label for="email">Email</label>
+              </div>
+              <input type="email" id="email" required />
+            </div>
+            <div class="input">
+              <div class="label">
+                <label for="password">Password</label>
+              </div>
+              <input type="password" id="password" required />
+            </div>
+            <div
+              class=""
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+              "
+            >
+              <button
+                type="button"
+                style="background: var(--black-2); color: var(--gray);"
+              >
+                Cancel
+              </button>
+              <button type="submit">Login to Your Account --></button>
+            </div>
+          </form>
+          <span class="forgot-password-text">Forgot Password?</span>
+        </div>
+
+        <div class="login-page-image">
+          <img src="./assets/images/hero-image.png" alt="" />
+        </div>
+      </div>
+      <p class="register-now-text">
+        Don’t have an account yet?
+        <a href="./user-selection.html">Register now!</a>
+      </p>
+    </main>
+
+    <script src="js/main.js" charset="utf-8"></script>
+    <script src="js/menu.js" charset="utf-8"></script>
+  </body>
+</html>
